@@ -1,0 +1,30 @@
+{
+  "name": "enzyme-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-14": "^1.2.0",
+    "jest": "^23.6.0",
+    "react": "^0.14.9",
+    "react-dom": "^0.14.9"
+  },
+  "devDependencies": {
+    "babel-jest": "^23.6.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "react-addons-test-utils": "^0.14.8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "jest": {
+    "testMatch": [ "**/__tests__/**/*.test.js" ],
+    "setupFiles": [
+      "<rootDir>/src/__tests__/__framework__/init.js"
+    ]
+  },
+  "author": "",
+  "license": "ISC"
+}
